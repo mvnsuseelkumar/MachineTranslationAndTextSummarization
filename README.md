@@ -59,7 +59,7 @@ MachineTranslationAndTextSummarization/
 #### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/mvnsuseelkumar/MachineTranslationAndTextSummarization.git
 cd MachineTranslationAndTextSummarization
 ```
 
@@ -283,4 +283,3 @@ For issues and questions:
 ---
 
 **Happy Translating and Summarizing! 🚀**
-
