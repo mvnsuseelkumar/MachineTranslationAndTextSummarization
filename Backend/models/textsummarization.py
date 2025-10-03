@@ -31,13 +31,3 @@ def summarize_text(text, model_size="small", max_length=None, min_length=None):
     summarizer = _models[model_size]
     summary = summarizer(text, max_length=max_length, min_length=min_length, do_sample=False)
     return summary[0]['summary_text']
-
-
-# # Example usage
-# text = """
-# Artificial intelligence is transforming the world rapidly. Many industries are adopting AI technologies to improve efficiency, productivity, and innovation. 
-# The potential of AI is vast, ranging from healthcare and education to transportation and entertainment. However, it also raises ethical concerns and the need for regulations.
-# """
-
-# print("Small Summary:", summarize_text(text, model_size="small"))
-# print("Large Summary:", summarize_text(text, model_size="large"))

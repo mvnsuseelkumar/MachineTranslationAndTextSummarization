@@ -37,13 +37,3 @@ def translate_text(text, src_lang="eng_Latn", tgt_lang="hin_Deva"):
     )[0]
 
     return translated_text
-
-# # 3. Example Translations
-# # Hindi → English
-# print("Hindi → English:", translate_text("वह स्कूल जा रही है।", "hin_Deva", "eng_Latn"))
-
-# # Telugu → English
-# print("Telugu → English:", translate_text("అతను లైబ్రరీకి వెళ్తున్నాడు.", "tel_Telu", "eng_Latn"))
-
-# # English → Hindi
-# print("English → Hindi:", translate_text("She is reading a book.", "eng_Latn", "hin_Deva"))
