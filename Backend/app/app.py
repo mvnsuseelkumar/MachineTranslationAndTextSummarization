@@ -4,7 +4,6 @@ from flask_cors import CORS
 from models.machinetranslation import translate_text
 from models.textsummarization import summarize_text
 
-
 # Creating Flask App
 app = Flask(__name__)
 CORS(app)
